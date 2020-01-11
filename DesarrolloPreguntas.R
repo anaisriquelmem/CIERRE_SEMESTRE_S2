@@ -26,9 +26,8 @@ set.seed(66)
 #porcentajes
 Porcentajes_incluye_neutros<-c(num_negativos/total,num_neutros/total,num_positivos/total)
 Porcentajes_no_neutros<-c(num_negativos/(total-num_neutros),num_positivos/(total-num_neutros))
-#Ejercicio 4 y 5
+#Ejercicio 4
 cartas_selec=sample(c("A",2:10,"J","Q","K"),31,replace=TRUE)
-set.seed(31)
 Cuenta<-0
 for (i in 1:length(cartas_selec)){
   if(cartas_selec[i]==2|cartas_selec[i]==3|cartas_selec[i]==4|cartas_selec[i]==5|cartas_selec[i]==6) {
@@ -37,3 +36,6 @@ for (i in 1:length(cartas_selec)){
         Cuenta<-Cuenta+0
       }
 }
+#Ejercicio 5
+set.seed(25)
+
