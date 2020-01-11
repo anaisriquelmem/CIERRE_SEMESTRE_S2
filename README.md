@@ -1,6 +1,7 @@
 # CIERRE_SEMESTRE_S2
 Trabajo cierre de semestre Big Data
 Anais Riquelme
+
 #Ejercicio 1
 Con en el comando Sample cree una lista de 100 numeros aleatorios que se pueden contar con el uso del comando for,
 este comando cuenta cada elemento de manera individual, así que hay que contar 3 veces, una por cada uno de los elementos.
@@ -13,10 +14,7 @@ por lo que supongo es que el comando set.seed establece una base aleatoria que s
 #Ejercicio 3
 Al ejecutar el set.seed(66) más lo hecho anteriormente, se puede observar que esta es otra base que se repetira,
 para comparar lo hice de manera porcentual, con y sin los neutros que pudiera dar la base.
-
-LOS RESULTADOS ARROJADOS SON con positivo, negativo y neutro respectivamente
-Sin los elementos neutros, los resultados son 0.31, 0,27 y 0,42
-
+LOS RESULTADOS ARROJADOS SON, con positivo, negativo y neutro respectivamente los resultados son 0.31, 0,27 y 0,42
 Por lo visto, el elemento neutro afecta, pero no de forma considerable en la diferencia entre positivos y negativos
 Diferencia de positivo y negativo, con neutros=0,04
 Diferencia de positivo y negativo, Sin neutros= 0,068
